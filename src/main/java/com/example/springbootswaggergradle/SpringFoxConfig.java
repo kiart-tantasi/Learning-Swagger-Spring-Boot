@@ -44,7 +44,7 @@ public class SpringFoxConfig {
                 // Custom Methods Response Messages
                 // globally overriding response messages of HTTP methods
                 .useDefaultResponseMessages(false)
-                .globalResponses(HttpMethod.DELETE.GET, responseBuilderArrayList);
+                .globalResponses(HttpMethod.GET, responseBuilderArrayList);
 
                 // SECURITY
 //                .securitySchemes(Arrays.asList(securityScheme()))
